@@ -22,15 +22,15 @@ const AppLayout = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="text-center">
             <p className="text-gray-400">
-              Made by{" "}
-              <a 
-                href="https://www.linkedin.com/in/sarthakgaikwad0" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-cyan-400 hover:text-cyan-300 underline transition-colors font-medium"
-              >
-                Sarthak
-              </a>
+                Made by{" "}
+                <a 
+                  href="https://www.linkedin.com/in/tushar6394" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:text-cyan-300 underline transition-colors font-medium"
+                >
+                  Tushar
+                </a>
             </p>
           </div>
         </div>
