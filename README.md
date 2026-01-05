@@ -21,6 +21,7 @@ A modern, full-stack URL shortener that lets you create, manage, and track short
 
 | Feature | Description |
 |---------|-------------|
+| 🌐 **Live Deployment** | Production app deployed on Vercel at [url-shortner-sigma-ten.vercel.app](https://url-shortner-sigma-ten.vercel.app/) |
 | 🔗 **Shorten URLs** | Instantly create short links for any URL |
 | 👤 **User Auth** | Sign up, log in, and manage your links securely (Supabase Auth) |
 | 📊 **Analytics** | Track clicks, device, and location stats for each link |
@@ -141,12 +142,16 @@ create table clicks (
 
 ## 🌐 **Deployment (Vercel)**
 
+
 1. Push your code to GitHub.
 2. Go to [vercel.com](https://vercel.com), import your repo, and set these environment variables in the dashboard:
-	 - `VITE_SUPABASE_URL`
-	 - `VITE_SUPABASE_KEY`
-	 - `REACT_APP_CLIENT_URL`
+	- `VITE_SUPABASE_URL`
+	- `VITE_SUPABASE_KEY`
+	- `REACT_APP_CLIENT_URL`
 3. Deploy!
+
+### **Live Production URL**
+🌐 **https://url-shortner-sigma-ten.vercel.app/**
 
 ---
 
